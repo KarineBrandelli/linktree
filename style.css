@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+    font-size: 2rem;
+}
+
 .btn-bd-primary {
     --bs-btn-font-weight: 600;
     --bs-btn-color: var(--bs-white);
