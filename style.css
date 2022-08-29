@@ -1,0 +1,29 @@
+:root {
+    --pink: #BB99DD;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--pink);
+    --bs-btn-border-color: var(--pink);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #21073b;
+    --bs-btn-hover-border-color: #21073b;
+    --bs-btn-focus-shadow-rgb: var(--pink-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #21073b;
+    --bs-btn-active-border-color: #21073b;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #BB99DD;
+}
+
+
