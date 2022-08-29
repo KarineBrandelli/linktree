@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.border-success {
+    border-color: #BB99DD !important;
+}
+
 .name {
     font-size: 1.25rem;
     color: #BB99DD;
@@ -34,5 +38,6 @@ body {
     font-size: 2rem;
     color: #BB99DD;
 }
+
 
 
