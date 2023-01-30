@@ -1,43 +1,30 @@
 :root {
-    --pink: #BB99DD;
+  --pink: #bb99dd;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .border-success {
-    border-color: #BB99DD !important;
+  border-color: var(--pink) !important;
 }
 
-.name {
-    font-size: 1.25rem;
-    color: #BB99DD;
-}
-
-.btn {
-    font-size: 1.5rem;
+.name,
+.icon {
+  color: var(--pink);
 }
 
 .btn-bd-primary {
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: #BB99DD;
-    /* --bs-btn-bg: var(--pink); */
-    --bs-btn-border-color: var(--pink);
-    --bs-btn-border-radius: .5rem;
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #BB99DD;
-    --bs-btn-hover-border-color: #BB99DD;
-    --bs-btn-focus-shadow-rgb: var(--pink-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #BB99DD;
-    --bs-btn-active-border-color: #BB99DD;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--pink);
+  --bs-btn-border-color: var(--pink);
+  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: var(--pink);
+  --bs-btn-hover-border-color: var(--pink);
+  --bs-btn-focus-shadow-rgb: var(--pink-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: var(--pink);
+  --bs-btn-active-border-color: var(--pink);
 }
-
-.icon {
-    font-size: 2rem;
-    color: #BB99DD;
-}
-
-
-
